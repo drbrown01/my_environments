@@ -3,9 +3,12 @@
   padding: 0px;
   font-family: sans-serif;
 }
-time {
-  color: red;
+h3 {
+  color: blue;
   background-color: aqua;
+}
+#time {
+  background: blue;
 
 
 }

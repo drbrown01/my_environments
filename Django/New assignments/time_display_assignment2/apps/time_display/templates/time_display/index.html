@@ -9,7 +9,9 @@
 	<h3>The current time and date: </h3>
 	<h1 class='time'>{{ time }}</h1>
 	<form class="btn" action="index.html" method="post">
-		{% csrf_token%}
+		{% csrf_token %}
+		<input type="text" name="User Name" value="User Name">
+		<input type="Password" name="Password" value="Password">
 
 
 	</form>
