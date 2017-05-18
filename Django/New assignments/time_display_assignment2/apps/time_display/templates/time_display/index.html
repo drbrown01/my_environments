@@ -3,10 +3,15 @@
 <head>
 	<title>Time Display</title>
 	{% load staticfiles %}
-	<link rel="stylesheet" href="{% static 'timedisplay/css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'time_display/css/style1.css' %}">
 </head>
 <body>
 	<h3>The current time and date: </h3>
-	<h1>{{ time }}</h1>
+	<h1 class='time'>{{ time }}</h1>
+	<form class="btn" action="index.html" method="post">
+		{% csrf_token%}
+
+
+	</form>
 </body>
 </html>
