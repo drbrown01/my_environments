@@ -7,9 +7,13 @@
 h3 {
   color: blue;
   background-color: aqua;
+  text-align: center;
+  margin: auto;
 }
 .time {
   background: blue;
+  text-align: center;
+  display: block;
 
 
 }
