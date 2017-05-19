@@ -9,12 +9,13 @@
 	<!-- <img src="http://2.bp.blogspot.com/-p-lcS7ISEs4/UlV_2VABmzI/AAAAAAAAZBs/2ekktLADM1M/s1600/Icy+Mountains+Wallpapers+%25281%2529.jpg" alt=""> -->
 	<h3>The current time and date: </h3>
 	<h1 class='time'>{{ time }}</h1>
-	<form class="btn" action="index.html" method="post">
-		{% csrf_token %}
-		<input type="text" name="User Name" value="User Name">
-		<input type="Password" name="Password" value="Password">
-		<input type="submit" name="Login" value="Login">
-
+	<div class="">
+				<form class="btn" action="index.html" method="post">
+					{% csrf_token %}
+					<input type="text" name="User Name" value="User Name">
+					<input type="Password" name="Password" value="Password">
+					<input type="submit" name="Login" value="Login">
+	<	/div>
 	</form id='bob'>
 </body>
 </html>
