@@ -2,13 +2,18 @@
   margin:0px;
   padding: 0px;
   font-family: sans-serif;
+  background-image: url(http://2.bp.blogspot.com/-p-lcS7ISEs4/UlV_2VABmzI/AAAAAAAAZBs/2ekktLADM1M/s1600/Icy+Mountains+Wallpapers+%25281%2529.jpgs)
 }
 h3 {
   color: blue;
   background-color: aqua;
 }
-#time {
+.time {
   background: blue;
 
+
+}
+img {
+  width: 750px;
 
 }
